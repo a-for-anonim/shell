@@ -1,6 +1,6 @@
 # Cara Penggunaan Script
 
-Semua script harus dijalankan dengan **root/sudo**.
+Semua script bisa dijalankan dengan **sudo**.
 
 ---
 
