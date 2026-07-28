@@ -50,7 +50,7 @@ sudo bash bind9.sh
 Melakukan:
 - Edit file zone di `/etc/bind/` (db.127, db.local)
 - Edit `named.conf.default-zones`
-- Ganti nameserver di `/etc/resolv.conf` menjadi `192.168.145.10`
+- Ganti nameserver di `/etc/resolv.conf` menjadi `ip.ip.ip.ip`
 - Restart service bind9
 
 ---
