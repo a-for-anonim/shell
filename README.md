@@ -26,7 +26,8 @@ sudo bash ip.sh
 
 Mengkonfigurasi netplan:
 - `enp0s3` → DHCP
-- `enp0s8` → static IP `ip.ip.ip.ip/24` dengan DNS `8.8.8.8` & `1.1.1.1` ipn sesuaikan saja ya
+- `enp0s8` → static IP `ip.ip.ip.ip/24` dengan DNS `8.8.8.8` & `1.1.1.1` ip sesuaikan saja ya
+- setelah run file ini jangan lupa untuk "netplan apply" lagi
 
 ---
 
