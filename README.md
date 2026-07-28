@@ -17,7 +17,6 @@ note:
 - Jika tidak diberi izin eksekusi maka file tidak bisa dijalankan
   
 ---
----
 
 ## 2. ip.sh — Setting IP Address
 
