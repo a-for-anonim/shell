@@ -4,7 +4,22 @@ Semua script bisa dijalankan dengan **sudo**.
 
 ---
 
-## 1. ip.sh — Setting IP Address
+## 1. izin eksekusi filenya
+
+```bash
+chmod +x "nama file"
+```
+```bash
+anda bisa menjalankan shellnya bisa dengan "bash" maupun "./" 
+```
+
+note:
+- Jika tidak diberi izin eksekusi maka file tidak bisa dijalankan
+  
+---
+---
+
+## 2. ip.sh — Setting IP Address
 
 ```bash
 sudo bash ip.sh
@@ -12,17 +27,18 @@ sudo bash ip.sh
 
 Mengkonfigurasi netplan:
 - `enp0s3` → DHCP
-- `enp0s8` → static IP `192.168.145.10/24` dengan DNS `8.8.8.8` & `1.1.1.1`
+- `enp0s8` → static IP `ip.ip.ip.ip/24` dengan DNS `8.8.8.8` & `1.1.1.1` ipn sesuaikan saja ya
 
 ---
 
-## 2. paket.sh — Install Paket
+## 3. paket.sh — Install Paket
 
 ```bash
 sudo bash paket.sh
 ```
 
 Menginstall: `openssh-server`, `apache2`, `samba`, `mariadb-server`, `bind9`.
+anda bisa mengubahnya sendiri
 
 ---
 
